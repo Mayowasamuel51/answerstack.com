@@ -50,7 +50,7 @@ function List() {
 
 // loader function ......................
 export const questionLoader = async () => {
-    const res = await axios('http://127.0.0.1:8000/api/getquestions');
+    const res = await axios('http://codarnetwork.online/api/getquestions');
     if (res.status === 200) {
         const data = await res.data.data
         return data
