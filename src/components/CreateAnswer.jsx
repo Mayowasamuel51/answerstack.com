@@ -6,7 +6,7 @@ import 'notyf/notyf.min.css';
 import { useQuery } from "@tanstack/react-query";
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../../node_modules/bootstrap/dist/js/bootstrap';
-import { getA } from "../api/get";
+// import { getA } from "../api/get";
 import moment from 'moment'
 function CreateAnswer() {
     const { question, problem_title, id } = useParams();
@@ -23,10 +23,10 @@ function CreateAnswer() {
         setText(e.target.value)
     }
 
-    const getAnswers = useQuery({
-        queryKey: ['posts'],
-        queryFn: getA
-    })
+    // const getAnswers = useQuery({
+    //     queryKey: ['posts'],
+    //     queryFn: getA
+    // })
     const fetchPost = () => {
         axios('/api/getquestions').then((res) => {
             if (res.status === 200) {
