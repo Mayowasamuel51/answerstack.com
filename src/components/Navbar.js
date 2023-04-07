@@ -86,7 +86,7 @@ function Navbar() {
                                 </li>
                             </ul>
                             <div className="d-flex" role="search">
-                                <input className="form-control me-2" type="text" value={input} onChange={Handler} placeholder="Search" aria-label="Search" />
+                                <input className="form-control me-2" type="text" value={input} onChange={Handler} placeholder="Search fro questions" aria-label="Search" />
                                 <button className="btn btn-outline-success" onClick={Find}>Search
                                 </button>
                             </div>
