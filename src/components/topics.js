@@ -14,6 +14,7 @@ const course = [
     "MONOGODB",
     "REACT-JS",
     "LARAVEL",
+    "DOCKER",
     "NEXT-JS",
     "UI/UX",
     "MYSQL",
